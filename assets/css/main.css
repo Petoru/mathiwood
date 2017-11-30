@@ -1,0 +1,402 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* GLOBAL */
+.h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* NAVBAR */
+.navbar {
+    min-height: 80px;
+    padding-top: 20px;
+    border-radius: none;
+    background-color: #ffffff;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    padding-left: 150px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+#myNavbar {
+    padding-right: 150px;
+    text-transform: uppercase;
+    font-size: 18px;   
+}
+
+#highlight {
+    color: #40a05d 
+}
+
+#black {
+    color: #000000;
+}
+
+#line {
+    background-color: #40a05d;
+    height: 25px;
+    width: 100%;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;  
+}
+
+/* INDEX */
+#start {
+    margin: 0;
+    padding-top: 0;
+}
+
+#start .container {
+    padding: 35px;
+    border-radius: 3%;
+}
+
+#start img {
+    border-radius: 3%;
+}
+
+#start .thumbnail {
+    border-radius: 3%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#start #btn1 {
+    position: absolute;
+    width: 50%;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px 4px #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#start #btn2 {
+    position: absolute;
+    width: 50%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px 4px #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    text-align: center;
+    text-shadow: 3px 3px 4px #000000;
+    font-size: 50px;
+}
+
+.centered2 {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    text-align: center;
+    text-shadow: 3px 3px 4px #000000;
+    font-size: 50px;
+}
+
+
+
+
+#about {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+    text-align: center;
+    border-top: 1px solid #000000;
+    background-color: #40a05d;       
+}
+
+#about h1 {
+    color: #ffffff;
+    text-shadow: 3px 3px 4px #000000;
+}
+
+#about .container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 3px 18px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+#about img {
+    width: 100%;
+}
+
+#boxes {
+    width: 100%;
+    margin: 0;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+#boxes .thumbnail {
+    padding: 0;
+}
+
+/* TRUHLARNA */
+#products {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+
+#products .col-md-4 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#products .thumbnail {
+    box-shadow: 0 3px 18px rgba(0, 0, 0, 0.2);
+}
+
+#products h1 {
+    margin-bottom: 30px;
+}
+
+#products .row {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+
+#products .thumbnail {
+    margin: 0;
+    padding: 0;
+   
+}
+
+#products ul {
+    font-size: 16px;
+}
+
+/* CENIK */
+#pricelist {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#pricelist h1 {
+    font-weight: bold;
+}
+
+#pricelist h1 {
+    margin-bottom: 30px;
+}
+
+.price {
+    background-color: #333333;
+    color: #FFF;
+    font-family: Verdana;
+    font-size: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+}
+
+.other {
+    background-color: #d8d8d8;
+    color: #414448;
+    font-family: Verdana;
+    font-size: 13px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+}
+
+#pricelist table {
+    border: white;
+    width: 100%;
+}
+
+#last {
+    margin-top: 98px;
+}
+
+/* NAMIRU */
+
+#app {
+    padding-top: 25px;
+    padding-bottom: 55px;
+    background-color: #FFF;
+    width: 100%;
+}
+
+#app h2  {
+    text-align: center;
+}
+
+label {
+    font-size: 17px;
+}
+
+ .form-control {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+
+ul {
+    list-style-type:none;
+}
+
+
+#btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: MontLight, sans-serif;
+    background-color: #282c30;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-shadow: 2px 2px 4px #000000;   
+}
+
+.fa {
+    padding: 25px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #FFF;
+}
+
+
+#facebook:hover {
+    color: #3b5998;
+    text-decoration: none;
+}
+
+#map {
+    height: 250px;
+    width:100%;
+    border-radius: 2%;
+    text-shadow: none;
+}
+
+.mobil {
+    font-size: 25px;
+}
+
+/* Media Queries */
+@media(max-width: 1024px) {
+    .centered1 {
+        font-size: 35px;
+        top: 40%;
+    }
+
+    .centered2 {
+        font-size: 35px;
+        top: 45%;
+    }
+
+    #start #btn1 {
+        width: 60%;
+        top: 73%;
+    }
+
+    #start #btn2 {
+        width: 60%;
+    }
+}
+
+@media(max-width: 768px) {
+    .navbar-brand
+     {
+        padding-left: 0;
+        
+    }
+    .footer {
+    margin-left: -15px;
+    margin-right: -15px; 
+    }
+    .mobil {
+        font-size: 22px;
+    }
+    #last {
+        margin-top: 0;
+    }
+    .centered1 {
+        font-size: 50px;
+        top: 40%;
+    }
+
+    .centered2 {
+        font-size: 50px;
+        top: 40%;
+    }
+
+    #start #btn1 {
+        width: 60%;
+        top: 80%;
+    }
+
+    #start #btn2 {
+        width: 60%;
+    }
+
+    #start .container {
+        padding: 0;
+    }
+
+    #start .thumbnail {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #map {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #products .col-md-4 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    #products h4 {
+        text-align: left;
+    }
+
+    #pricelist h4 {
+        text-align: left;
+    }
+}
+
+
+
